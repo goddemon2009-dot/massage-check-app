@@ -272,7 +272,6 @@ function generateCheckScreen() {
                 </div>
             `;
         });
-html += `
 
         html += `</div></div><hr>`;
     });
