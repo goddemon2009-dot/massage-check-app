@@ -247,18 +247,7 @@ body {
 /* =========================================================
    ■ チェックボタン
    ========================================================= */
-.itemNextButton {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 999;
-}
-.itemBackButton {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    z-index: 999;
-}
+
 #checkButtons {
     position: static;        /* ← 固定しない */
     width: 100%;
