@@ -116,7 +116,7 @@ function showScreen(id) {
 const topicNames = {
     1: "頭皮",
     2: "耳（日本手ぬぐい）",
-    3: "頭",
+    3: "顔",
     4: "口の中",
     5: "からだのまえ",
     6: "おなかをゆるめる",
@@ -272,6 +272,12 @@ function generateCheckScreen() {
                 </div>
             `;
         });
+html += `
+    <div class="itemNextButton">
+        <button class="nextButton nav-button" onclick="saveAndNext()">次の項目へ</button>
+    </div>
+`;
+
 
         html += `</div></div><hr>`;
     });
