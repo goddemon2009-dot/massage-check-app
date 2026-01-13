@@ -487,4 +487,4 @@ window.addEventListener("scroll", () => {
         checkButtons.style.opacity = 0;
     }
 });
-}
+
