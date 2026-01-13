@@ -273,11 +273,6 @@ function generateCheckScreen() {
             `;
         });
 html += `
-    <div class="itemNextButton">
-        <button class="nextButton nav-button" onclick="saveAndNext()">次の項目へ</button>
-    </div>
-`;
-
 
         html += `</div></div><hr>`;
     });
