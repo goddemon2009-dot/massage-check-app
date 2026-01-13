@@ -259,3 +259,13 @@ body {
     left: 20px;
     z-index: 999;
 }
+#checkButtons {
+    position: static;        /* ← 固定しない */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    opacity: 0;              /* ← 最初は非表示 */
+    transition: opacity 0.3s;
+}
+
