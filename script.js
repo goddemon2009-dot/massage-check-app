@@ -477,4 +477,19 @@ for (let i = 1; i < sheetData.length; i++) {
 
     XLSX.writeFile(wb, fileName);
 }
+/* =========================================================
+   ■ 次へ・戻るボタンの設定
+   ========================================================= */
+window.addEventListener("scroll", () => {
+    const checkButtons = document.getElementById("checkButtons");
+    if (!checkButtons) return;
 
+    const scrollBottom = window.innerHeight + window.scrollY;
+    const pageHeight = document.body.offsetHeight;
+
+    if (scrollBottom >= pageHeight - 10) {
+        checkButtons.style.opacity = 1;
+    } else {
+        checkButtons.style.opacity = 0;
+    }
+});
